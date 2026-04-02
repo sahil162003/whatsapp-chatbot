@@ -165,3 +165,6 @@ Consider the following:
 2026-04-02T21:51:01.974+05:30  INFO 19720 --- [Whatsapp_Chatbot] [http-nio-8801-exec-5] com.sc.controller.WebhookController      : Message from [yash]: bye
 2026-04-02T21:51:16.485+05:30  INFO 19720 --- [Whatsapp_Chatbot] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
 2026-04-02T21:51:16.502+05:30  INFO 19720 --- [Whatsapp_Chatbot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-02T22:34:27.524+05:30  INFO 4412 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplicationTests   : Starting WhatsappChatbotApplicationTests using Java 21.0.6 with PID 4412 (started by chalke in D:\Whatsapp_Chatbot)
+2026-04-02T22:34:27.526+05:30  INFO 4412 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2026-04-02T22:34:28.908+05:30  INFO 4412 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplicationTests   : Started WhatsappChatbotApplicationTests in 1.816 seconds (process running for 3.158)
