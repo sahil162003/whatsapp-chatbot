@@ -142,3 +142,17 @@ Consider the following:
 	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
 	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
 
+2026-04-02T20:50:56.665+05:30  INFO 19720 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplication        : Starting WhatsappChatbotApplication using Java 21.0.6 with PID 19720 (D:\Whatsapp_Chatbot\target\classes started by chalke in D:\Whatsapp_Chatbot)
+2026-04-02T20:50:56.671+05:30  INFO 19720 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-04-02T20:50:57.920+05:30  INFO 19720 --- [Whatsapp_Chatbot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8801 (http)
+2026-04-02T20:50:57.941+05:30  INFO 19720 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-02T20:50:57.942+05:30  INFO 19720 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-02T20:50:58.014+05:30  INFO 19720 --- [Whatsapp_Chatbot] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1265 ms
+2026-04-02T20:50:58.589+05:30  INFO 19720 --- [Whatsapp_Chatbot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8801 (http) with context path '/'
+2026-04-02T20:50:58.594+05:30  INFO 19720 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplication        : Started WhatsappChatbotApplication in 2.639 seconds (process running for 3.262)
+2026-04-02T20:51:06.763+05:30  INFO 19720 --- [Whatsapp_Chatbot] [http-nio-8801-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-02T20:51:06.764+05:30  INFO 19720 --- [Whatsapp_Chatbot] [http-nio-8801-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-02T20:51:06.768+05:30  INFO 19720 --- [Whatsapp_Chatbot] [http-nio-8801-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-04-02T20:51:07.104+05:30  INFO 19720 --- [Whatsapp_Chatbot] [http-nio-8801-exec-1] com.sc.controller.WebhookController      : Message from [yash]: good
+2026-04-02T20:51:17.585+05:30  INFO 19720 --- [Whatsapp_Chatbot] [http-nio-8801-exec-5] com.sc.controller.WebhookController      : Message from [sahil]: hi
+2026-04-02T20:51:28.346+05:30  INFO 19720 --- [Whatsapp_Chatbot] [http-nio-8801-exec-4] com.sc.controller.WebhookController      : Message from [abc]: bye
