@@ -1,6 +1,8 @@
 package com.sc.controller;
 
 import com.sc.dto.Whatsdto;
+import com.sc.model.WhatsAppMessage;
+import com.sc.reposistory.ChatBotRepo;
 import com.sc.service.ChatbotService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -19,7 +21,8 @@ public class WebhookController {
    @PostMapping("/webhook")
     public String  reciveMesssage(@RequestBody Whatsdto whatsdto){
        logger.info("Message from [{}]: {}", whatsdto.getSender(), whatsdto.getMessage());
-       String reply = chatbotService.getReply(whatsdto.getMessage());
+       String reply = chatbotService.getReply(whatsdto);
+
 
        return reply;
    }

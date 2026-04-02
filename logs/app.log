@@ -1,0 +1,5 @@
+2026-04-02T00:04:05.468+05:30  INFO 20220 --- [Whatsapp_Chatbot] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-02T00:04:05.520+05:30  INFO 20220 --- [Whatsapp_Chatbot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-02T00:04:05.542+05:30  INFO 20220 --- [Whatsapp_Chatbot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-02T00:04:05.566+05:30  INFO 20220 --- [Whatsapp_Chatbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-02T00:04:05.598+05:30  INFO 20220 --- [Whatsapp_Chatbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

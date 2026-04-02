@@ -7,6 +7,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
 
+import java.time.LocalDateTime;
+
 @Data
 @Entity
 public class WhatsAppMessage {
@@ -15,4 +17,7 @@ public class WhatsAppMessage {
     private Long id;
     private String sender;
     private String message;
+    private String reply;
+    private LocalDateTime timestamp = LocalDateTime.now();
+
 }
