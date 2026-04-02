@@ -3,3 +3,142 @@
 2026-04-02T00:04:05.542+05:30  INFO 20220 --- [Whatsapp_Chatbot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-04-02T00:04:05.566+05:30  INFO 20220 --- [Whatsapp_Chatbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2026-04-02T00:04:05.598+05:30  INFO 20220 --- [Whatsapp_Chatbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-02T20:24:40.024+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplication        : Starting WhatsappChatbotApplication using Java 21.0.6 with PID 2948 (D:\Whatsapp_Chatbot\target\classes started by chalke in D:\Whatsapp_Chatbot)
+2026-04-02T20:24:40.031+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-04-02T20:24:41.212+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-02T20:24:41.317+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2026-04-02T20:24:43.002+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8801 (http)
+2026-04-02T20:24:43.067+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-02T20:24:43.068+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-02T20:24:43.313+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3169 ms
+2026-04-02T20:24:44.030+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-02T20:24:44.274+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-02T20:24:46.346+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-02T20:24:46.493+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-02T20:24:47.242+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39b85a73
+2026-04-02T20:24:47.254+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-02T20:24:47.487+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ChatBots?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: ChatBots/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-02T20:24:49.040+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-02T20:24:49.628+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-02T20:24:49.820+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-02T20:24:50.038+05:30  WARN 2948 --- [Whatsapp_Chatbot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-02T20:24:50.597+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8801 (http) with context path '/'
+2026-04-02T20:24:50.606+05:30  INFO 2948 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplication        : Started WhatsappChatbotApplication in 11.514 seconds (process running for 12.277)
+2026-04-02T20:25:11.898+05:30  INFO 2948 --- [Whatsapp_Chatbot] [http-nio-8801-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-02T20:25:11.899+05:30  INFO 2948 --- [Whatsapp_Chatbot] [http-nio-8801-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-02T20:25:11.907+05:30  INFO 2948 --- [Whatsapp_Chatbot] [http-nio-8801-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2026-04-02T20:25:12.429+05:30  INFO 2948 --- [Whatsapp_Chatbot] [http-nio-8801-exec-2] com.sc.controller.WebhookController      : Message from [Alien]: bye
+2026-04-02T20:25:38.520+05:30  INFO 2948 --- [Whatsapp_Chatbot] [http-nio-8801-exec-3] com.sc.controller.WebhookController      : Message from [sahil]: hi
+2026-04-02T20:25:49.366+05:30  INFO 2948 --- [Whatsapp_Chatbot] [http-nio-8801-exec-4] com.sc.controller.WebhookController      : Message from [yash]: good
+2026-04-02T20:35:32.297+05:30  INFO 2948 --- [Whatsapp_Chatbot] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-02T20:35:32.370+05:30  INFO 2948 --- [Whatsapp_Chatbot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-02T20:35:32.446+05:30  INFO 2948 --- [Whatsapp_Chatbot] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-02T20:35:32.514+05:30  INFO 2948 --- [Whatsapp_Chatbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-02T20:35:32.641+05:30  INFO 2948 --- [Whatsapp_Chatbot] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-02T20:39:47.047+05:30  INFO 7812 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplication        : Starting WhatsappChatbotApplication using Java 21.0.6 with PID 7812 (D:\Whatsapp_Chatbot\target\classes started by chalke in D:\Whatsapp_Chatbot)
+2026-04-02T20:39:47.051+05:30  INFO 7812 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-04-02T20:39:48.241+05:30  INFO 7812 --- [Whatsapp_Chatbot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-02T20:39:48.280+05:30  INFO 7812 --- [Whatsapp_Chatbot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2026-04-02T20:39:49.128+05:30  INFO 7812 --- [Whatsapp_Chatbot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8801 (http)
+2026-04-02T20:39:49.150+05:30  INFO 7812 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-02T20:39:49.151+05:30  INFO 7812 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-02T20:39:49.253+05:30  INFO 7812 --- [Whatsapp_Chatbot] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2106 ms
+2026-04-02T20:39:49.405+05:30  WARN 7812 --- [Whatsapp_Chatbot] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceInitializationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2026-04-02T20:39:49.411+05:30  INFO 7812 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-04-02T20:39:49.428+05:30  INFO 7812 --- [Whatsapp_Chatbot] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-02T20:39:49.456+05:30 ERROR 7812 --- [Whatsapp_Chatbot] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2026-04-02T20:41:08.817+05:30  INFO 22716 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplication        : Starting WhatsappChatbotApplication using Java 21.0.6 with PID 22716 (D:\Whatsapp_Chatbot\target\classes started by chalke in D:\Whatsapp_Chatbot)
+2026-04-02T20:41:08.824+05:30  INFO 22716 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-04-02T20:41:09.804+05:30  INFO 22716 --- [Whatsapp_Chatbot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-02T20:41:09.858+05:30  INFO 22716 --- [Whatsapp_Chatbot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 JPA repository interfaces.
+2026-04-02T20:41:10.586+05:30  INFO 22716 --- [Whatsapp_Chatbot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8801 (http)
+2026-04-02T20:41:10.610+05:30  INFO 22716 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-02T20:41:10.611+05:30  INFO 22716 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-02T20:41:10.676+05:30  INFO 22716 --- [Whatsapp_Chatbot] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1757 ms
+2026-04-02T20:41:10.788+05:30  WARN 22716 --- [Whatsapp_Chatbot] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceInitializationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2026-04-02T20:41:10.794+05:30  INFO 22716 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-04-02T20:41:10.824+05:30  INFO 22716 --- [Whatsapp_Chatbot] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-02T20:41:10.850+05:30 ERROR 22716 --- [Whatsapp_Chatbot] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2026-04-02T20:41:43.753+05:30  INFO 16324 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplication        : Starting WhatsappChatbotApplication using Java 21.0.6 with PID 16324 (D:\Whatsapp_Chatbot\target\classes started by chalke in D:\Whatsapp_Chatbot)
+2026-04-02T20:41:43.759+05:30  INFO 16324 --- [Whatsapp_Chatbot] [main] com.sc.WhatsappChatbotApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-04-02T20:41:44.695+05:30  INFO 16324 --- [Whatsapp_Chatbot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-02T20:41:44.748+05:30  INFO 16324 --- [Whatsapp_Chatbot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 JPA repository interfaces.
+2026-04-02T20:41:45.318+05:30  INFO 16324 --- [Whatsapp_Chatbot] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8801 (http)
+2026-04-02T20:41:45.337+05:30  INFO 16324 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-02T20:41:45.338+05:30  INFO 16324 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-02T20:41:45.410+05:30  INFO 16324 --- [Whatsapp_Chatbot] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1568 ms
+2026-04-02T20:41:45.524+05:30  WARN 16324 --- [Whatsapp_Chatbot] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceInitializationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2026-04-02T20:41:45.530+05:30  INFO 16324 --- [Whatsapp_Chatbot] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-04-02T20:41:45.567+05:30  INFO 16324 --- [Whatsapp_Chatbot] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-02T20:41:45.602+05:30 ERROR 16324 --- [Whatsapp_Chatbot] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
